@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1046538072795",
+    "project_id": "ecommerceapp-da3c6",
+    "storage_bucket": "ecommerceapp-da3c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046538072795:android:8638a5ff084a279ed412fe",
+        "android_client_info": {
+          "package_name": "com.beyzanuraydemir.ecommerceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046538072795-t9p3e2oijvvpraii6oqkj1lh43364eg5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnzF32DNTSAqMJFdT1KPTa32rvBy8j8pQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1046538072795-t9p3e2oijvvpraii6oqkj1lh43364eg5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

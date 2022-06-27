@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/drawable/ic_person_gray.xml" value="0.177" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/drawable/ic_profile.xml" value="0.177" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/drawable/shape_button01.xml" value="0.182" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/drawable/shape_button02.xml" value="0.177" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/drawable/shape_button03.xml" value="0.182" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/drawable/shape_edittext01.xml" value="0.177" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/drawable/shape_toolbar01.xml" value="0.177" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/drawable/shape_toolbar02.xml" value="0.177" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/layout/activity_dashboard_admin.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/layout/activity_forgot_password.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/layout/activity_main_page.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/layout/activity_register.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/layout/activity_welcome.xml" value="0.2" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/layout/bag_recycler_row.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/layout/fragment_all_products.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/layout/fragment_bag.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/layout/fragment_favourites.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/layout/fragment_product_card.xml" value="0.2" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/layout/fragment_profile.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/layout/fragment_shop.xml" value="0.264" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/layout/product_recycler_row.xml" value="0.2" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/menu/bottom_bar_menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
