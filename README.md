@@ -29,7 +29,7 @@ Screenshots of the project are below.
     <img src="https://user-images.githubusercontent.com/99657258/176763432-54695786-9023-4504-ae77-f4a8761a24cf.jpg">
   </td>
   <td>
-    <img src="https://user-images.githubusercontent.com/99657258/176763424-4eaabca6-dc3a-48c0-bc6a-80f50b8ff504.jpg">
+    <img src="https://user-images.githubusercontent.com/99657258/176763408-954f08f8-01b3-4c77-87f2-55d3139d2939.jpg">
   </td>
   <td>
     <img src="https://user-images.githubusercontent.com/99657258/176763416-f55adc9b-f2e5-4b56-b8c7-0060135cee94.jpg" >
