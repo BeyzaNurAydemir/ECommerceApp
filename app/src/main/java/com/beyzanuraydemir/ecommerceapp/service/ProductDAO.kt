@@ -10,12 +10,12 @@ interface ProductDAO {
     @Insert
     suspend fun insertAll(vararg product: Product)
 
-    @Query("SELECT * FROM product")
-    suspend fun getAllProducts() : List<Product>?
+    @Query("SELECT * FROM products")
+    fun getAllProducts() : List<Product>?
 
-    @Query("SELECT * FROM product WHERE uuid = :productId")
+    @Query("SELECT * FROM products WHERE uuid = :productId")
     suspend fun getProduct(productId : Int) : Product?
 
-    @Query("DELETE FROM product")
+    @Query("DELETE FROM products")
     suspend fun deleteAllProducts()
 }

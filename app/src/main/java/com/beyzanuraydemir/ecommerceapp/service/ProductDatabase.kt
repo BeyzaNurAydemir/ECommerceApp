@@ -5,16 +5,14 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.beyzanuraydemir.ecommerceapp.model.Product
-import com.beyzanuraydemir.ecommerceapp.model.ProductBagRoomModel
 
-@Database(entities = arrayOf(Product::class), version = 2)
+@Database(entities = [Product::class], version = 1, exportSchema = false)
 abstract class ProductDatabase : RoomDatabase(){
 
     abstract fun productDao() : ProductDAO
 
-    companion object{
 
-        //Singleton
+    companion object{
 
         @Volatile private var instance : ProductDatabase? = null
 
@@ -28,7 +26,7 @@ abstract class ProductDatabase : RoomDatabase(){
         private fun createDatabase(context: Context) = Room.databaseBuilder(
             context.applicationContext,
             ProductDatabase::class.java, "productdatabase")
-            .fallbackToDestructiveMigration()
+            .allowMainThreadQueries()
             .build()
     }
 

@@ -20,12 +20,13 @@
         <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/layout/activity_welcome.xml" value="0.2" />
         <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/layout/bag_recycler_row.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/layout/fragment_all_products.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/layout/fragment_bag.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/layout/fragment_bag.xml" value="0.264" />
         <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/layout/fragment_favourites.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/layout/fragment_product_card.xml" value="0.2" />
         <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/layout/fragment_profile.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/layout/fragment_shop.xml" value="0.264" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/layout/fragment_success.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/layout/product_recycler_row.xml" value="0.2" />
         <entry key="..\:/Users/beyza/AndroidStudioProjects/ECommerceApp/app/src/main/res/menu/bottom_bar_menu.xml" value="0.25416666666666665" />
       </map>

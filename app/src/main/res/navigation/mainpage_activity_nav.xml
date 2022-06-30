@@ -31,6 +31,9 @@
         <argument
             android:name="productResponse"
             app:argType="com.beyzanuraydemir.ecommerceapp.model.Product" />
+        <action
+            android:id="@+id/action_bagFragment_to_successFragment"
+            app:destination="@id/successFragment" />
     </fragment>
     <fragment
         android:id="@+id/favouritesFragment"
@@ -53,5 +56,14 @@
         <action
             android:id="@+id/action_productCardFragment_to_bagFragment"
             app:destination="@id/bagFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/successFragment"
+        android:name="com.beyzanuraydemir.ecommerceapp.view.SuccessFragment"
+        android:label="SuccessFragment"
+        tools:layout="@layout/fragment_success">
+        <action
+            android:id="@+id/action_successFragment_to_shopFragment"
+            app:destination="@id/shopFragment" />
     </fragment>
 </navigation>

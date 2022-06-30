@@ -9,11 +9,11 @@ import kotlinx.parcelize.Parcelize
 import java.io.Serializable
 
 @Parcelize
-@Entity
+@Entity (tableName = "products")
 data class Product(
     @ColumnInfo(name = "id")
     @SerializedName("id")
-    var id: String,
+    var id: Int,
     @ColumnInfo(name = "user")
     @SerializedName("user")
     val user: String,

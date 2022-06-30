@@ -47,6 +47,10 @@ class ShopFragment() : Fragment() {
             binding.swipeRefreshLayout.isRefreshing = false
         }
 
+        binding.backButton.setOnClickListener {
+            activity?.onBackPressed()
+        }
+
         observeLiveData()
     }
 
@@ -55,6 +59,7 @@ class ShopFragment() : Fragment() {
             products?.let {
                 binding.productListRecyclerView.visibility = View.VISIBLE
                 recyclerProductAdapter.productListUpdate(products)
+                binding.productListRecyclerView.adapter = recyclerProductAdapter
             }
         })
 

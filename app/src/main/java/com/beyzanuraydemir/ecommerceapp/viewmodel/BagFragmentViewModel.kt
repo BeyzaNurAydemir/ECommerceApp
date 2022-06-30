@@ -4,22 +4,28 @@ import android.content.Context
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.beyzanuraydemir.ecommerceapp.model.ProductBagRoomModel
+import com.beyzanuraydemir.ecommerceapp.model.Product
+import com.beyzanuraydemir.ecommerceapp.repos.ProductsRepository
 
 class BagFragmentViewModel(context: Context) : ViewModel() {
 
-    //private val ProductsRepo = ProductsRepository(context)
+    private val productsRepo = ProductsRepository(context)
 
-    private var _productBag =MutableLiveData<List<ProductBagRoomModel>>()
-    val productBag: LiveData<List<ProductBagRoomModel>>
-       get() = _productBag
+    private var _productsBag =MutableLiveData<List<Product>>()
+    val productsBag: LiveData<List<Product>>
+       get() = _productsBag
+
+    private var _isLoading =MutableLiveData<Boolean>()
+    val isLoading: LiveData<Boolean>
+     get() = _isLoading
 
     init {
         getProductsBag()
     }
 
     private fun getProductsBag(){
-       /* productsRepo.productsBag()
-        _productBag = productsRepo.productsBagList */
+        productsRepo.getBagProducts()
+        _productsBag = productsRepo.productsBagList
     }
+
 }

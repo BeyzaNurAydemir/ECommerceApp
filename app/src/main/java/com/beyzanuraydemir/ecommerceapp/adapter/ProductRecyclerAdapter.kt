@@ -13,7 +13,6 @@ import com.beyzanuraydemir.ecommerceapp.databinding.ProductRecyclerRowBinding
 import com.beyzanuraydemir.ecommerceapp.model.Product
 import com.beyzanuraydemir.ecommerceapp.util.doPlaceHolder
 import com.beyzanuraydemir.ecommerceapp.util.downloadImage
-import com.beyzanuraydemir.ecommerceapp.view.BagFragment
 import com.beyzanuraydemir.ecommerceapp.view.ShopFragmentDirections
 
 class ProductRecyclerAdapter(val productList : ArrayList<Product>) : RecyclerView.Adapter<ProductRecyclerAdapter.ProductViewHolder>(), ProductClickListener{

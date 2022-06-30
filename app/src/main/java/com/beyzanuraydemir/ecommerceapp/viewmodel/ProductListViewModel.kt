@@ -5,6 +5,7 @@ import android.widget.Toast
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.beyzanuraydemir.ecommerceapp.model.Product
+import com.beyzanuraydemir.ecommerceapp.repos.ProductsRepository
 import com.beyzanuraydemir.ecommerceapp.service.ProductAPIService
 import com.beyzanuraydemir.ecommerceapp.service.ProductDatabase
 import com.beyzanuraydemir.ecommerceapp.util.PrivateSharedPreferences
@@ -18,14 +19,15 @@ class ProductListViewModel(application: Application) : BaseViewModel(application
     val products = MutableLiveData<List<Product>>()
     val productErrorMessage = MutableLiveData<Boolean>()
     val productLoading = MutableLiveData<Boolean>()
-    private var updateTime = 10 * 60 * 1000 * 1000 * 1000L
+    private var updateTime = 0.2 * 60 * 1000 * 1000 * 1000L
 
     private val productApiService = ProductAPIService()
     private val disposable = CompositeDisposable()
     private val privateSharedPreferences = PrivateSharedPreferences(getApplication())
 
-    fun refreshData(){
+    private var productsRepo = ProductsRepository(application.applicationContext)
 
+    fun refreshData(){
         val saveTime = privateSharedPreferences.takeTheTime()
         if(saveTime != null && saveTime != 0L && System.nanoTime() - saveTime < updateTime){
             //take the sqlite
@@ -35,15 +37,6 @@ class ProductListViewModel(application: Application) : BaseViewModel(application
             getDataFromInternet()
         }
 
-    }
-
-    private fun getDataFromSQLite(){
-        productLoading.value = true
-        launch {
-            val productList = ProductDatabase(getApplication()).productDao().getAllProducts()
-            showProducts(productList.orEmpty())
-            //Toast.makeText(getApplication(),"Ürünleri roomdan aldık",Toast.LENGTH_LONG).show()
-        }
     }
 
     private fun getDataFromInternet(){
@@ -71,6 +64,23 @@ class ProductListViewModel(application: Application) : BaseViewModel(application
         )
 
     }
+
+    private fun getDataFromSQLite(){
+        productLoading.value = true
+        launch {
+            val productList = ProductDatabase(getApplication()).productDao().getAllProducts()
+            showProducts(productList.orEmpty())
+            //Toast.makeText(getApplication(),"Ürünleri roomdan aldık",Toast.LENGTH_LONG).show()
+        }
+    }
+
+
+/*
+    private fun getDataFromSQLite(){
+        productsRepo.products()
+    }
+
+ */
 
     private fun showProducts(productsList : List<Product>){
         products.value = productsList
