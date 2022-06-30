@@ -53,6 +53,10 @@ class BagFragment : Fragment() {
             }
         }
 
+        binding.backButton.setOnClickListener {
+            activity?.onBackPressed()
+        }
+
     }
 
     private fun initObserves(){
