@@ -16,3 +16,5 @@ Technologies and structures used in the project:
 - Retrofit
 - Fİrebase
 
+Screenshots of the project are below.
+
