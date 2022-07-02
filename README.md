@@ -2,7 +2,6 @@
 E-commerce Application
 
 Technologies and structures used in the project:
-- Splash Screen
 - MVVM
 - View Model
 - Live Data
